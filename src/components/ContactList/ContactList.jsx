@@ -13,10 +13,10 @@ const ContactList = ({ contacts, onDelete }) => {
           contacts.map(({ id, name, number }) => {
             return (
               <ContactItem
-                id={id}
                 key={id}
                 name={name}
                 nubmer={number}
+                id={id}
                 onDelete={onDelete}
               />
             );
